@@ -1,0 +1,303 @@
+@font-face {
+    font-family:'Aoboshi' ;
+    src: url(./Code/AoboshiOne-Regular.ttf);
+}
+
+.awal{
+    background-color: beige;
+    background-image: url(./Image/batik+logo.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-position: auto;
+    background-size: 100%;
+}
+
+.Batik{
+    margin-left: 470px;
+    font-family: 'Aoboshi';
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 890px;
+    color: black;
+}
+
+.container{
+    margin-top: -120px;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgContainer{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    left: 0;
+    display: flex;
+    position: center;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.name{
+    font-family: 'Aoboshi';
+    font-size: 40px;
+    color: antiquewhite;
+    font-weight: reguler;
+    position: center;
+}
+
+.slide_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+}
+
+img{
+    position: relative;
+    height: 300px;
+    width: 490px;
+    filter: saturate(10%);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    image-orientation: 100%;
+}
+
+.button{
+    position: absolute;
+    height: 300px;
+    width: 430px;
+    transition: 0.7s;
+}
+
+#slider1:target ~ .imgContainer #img1,
+#slider1:target ~ .imgContainer #button{
+    width: 700px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider2:target ~ .imgContainer #img2,
+#slider2:target ~ .imgContainer #button{
+    width: 700px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider3:target ~ .imgContainer #img3,
+#slider3:target ~ .imgContainer #button{
+    width: 700px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider4:target ~ .imgContainer #img4,
+#slider4:target ~ .imgContainer #button{
+    width: 700px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider5:target ~ .imgContainer #img5,
+#slider5:target ~ .imgContainer #button{
+    width: 700px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider6:target ~ .imgContainer #img6,
+#slider6:target ~ .imgContainer #button{
+    width: 700px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider7:target ~ .imgContainer #img7,
+#slider7:target ~ .imgContainer #button{
+    width: 700px;
+    height: 400px;
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider1:target ~ .imgContainer{
+    left: 75%;
+}
+
+#slider2:target ~ .imgContainer{
+    left: 55%;
+}
+
+#slider3:target ~ .imgContainer{
+    left: 35%;
+}
+
+#slider4:target ~ .imgContainer{
+    left: 0%;
+}
+
+#slider5:target ~ .imgContainer{
+    left: -35%;
+}
+
+#slider6:target ~ .imgContainer{
+    left: -55%;
+}
+
+#slider7:target ~ .imgContainer{
+    left: -75%;
+} 
+
+.hayoyo{
+    background: #1B1510;
+    background-image: url(./Image/batik.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1568px;
+    height: 900px;
+    padding-top: 10px;
+}
+.keris{
+    font-family: 'Aoboshi';
+    font-size: 60px;
+    font-weight: reguler;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+.video{
+    width: 1000px;
+    height: 700px;
+}
+
+.apalah{
+    margin-top: 25px;
+    margin-left: 530px;
+}
+
+.media{
+    width: 480px;
+    height: 155px;
+    padding: 1em;
+    display: flex;
+    gap: 1em; 
+}
+
+.kol{
+    flex: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.row{
+    flex: 1;
+
+}
+
+.row1{
+    display: flex;
+    border: none;
+    gap: 1em;
+}
+
+.kolom{ 
+    flex: 1;
+    gap: 1em;
+}
+
+.row2{
+    display: flex;
+    border: none;
+    gap: 1em;
+}
+
+.bolom{
+    flex: 1;
+}
+
+.fb{
+    background-image: url(./Image/icon/fb.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-color: transparent;
+    width: 59px;
+    height: 59px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ig{
+    background-image: url(./Image/icon/ig.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-color: transparent;
+    width: 59px;
+    height: 59px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.twt{
+    background-image: url(./Image/icon/twt.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-color: transparent;
+    width: 59px;
+    height: 59px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.yt{
+    background-image: url(./Image/icon/yt.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-color: transparent;
+    width: 59px;
+    height: 59px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+
+.kiri{
+    background-image: url(./Image/icon/news\ &\ activities.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    cursor: pointer;
+}
+
+.tengah{
+    background-image: url(./Image/icon/store.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 34%;
+    cursor: pointer;
+}
+
+.kanan{
+    background-image: url(./Image/icon/faqs\ &\ about\ us.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    cursor: pointer;
+}
